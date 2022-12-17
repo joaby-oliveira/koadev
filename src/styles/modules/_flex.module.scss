@@ -1,0 +1,31 @@
+.flex {
+  display: flex;
+  &.column {
+    flex-direction: column;
+  }
+  &.main-center {
+    justify-content: center;
+  }
+  &.main-between {
+    justify-content: space-between;
+  }
+  &.main-around {
+    justify-content: space-around;
+  }
+
+  &.cross-center {
+    align-items: center;
+  }
+  &.cross-between {
+    align-items: space-between;
+  }
+  &.cross-around {
+    align-items: space-around;
+  }
+}
+
+@for $index from 1 to 64 {
+  .g-#{$index} {
+    gap: #{$index}px;
+  }
+}

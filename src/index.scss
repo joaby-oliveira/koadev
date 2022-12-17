@@ -1,0 +1,16 @@
+@import 'styles/modules/color.module';
+@import 'styles/modules/typography.module';
+@import 'styles/modules/flex.module';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 4rem;
+  margin: 0 auto;
+}

@@ -1,0 +1,27 @@
+@import '../tokens/typography.token';
+
+.ft-1 {
+  font: $title-1;
+}
+.ft-2 {
+  font: $title-2;
+}
+.ft-3 {
+  font: $title-3;
+}
+.ft-4 {
+  font: $title-4;
+}
+
+.fp-1 {
+  font: $paragraph-1;
+}
+.fp-2 {
+  font: $paragraph-2;
+}
+.fc-1 {
+  font: $caption-1;
+}
+.fb-1 {
+  font: $button-1;
+}

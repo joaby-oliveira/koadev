@@ -1,0 +1,35 @@
+@import '../../../../styles/tokens/color.token';
+.authors-list {
+  border: 2px solid $background-100;
+  border-radius: 4px;
+  .author-item {
+    padding: 1rem;
+    position: relative;
+    transition: 0.2s ease background-color;
+    cursor: pointer;
+    list-style: none;
+
+    &:hover {
+      background-color: $background-100;
+    }
+    &:active {
+      background-color: $background-150;
+    }
+    &__avatar {
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+    }
+    &:not(:last-child) {
+      &::after {
+        content: '';
+        display: block;
+        height: 2px;
+        background-color: $background-100;
+        width: calc(100% - 2rem);
+        position: absolute;
+        bottom: 0;
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'neocode',
+  displayName: 'koadev',
   preset: './jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -9,7 +9,7 @@ export default {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: './coverage/neocode',
+  coverageDirectory: './coverage/koadev',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular',
   },

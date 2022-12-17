@@ -1,0 +1,280 @@
+@import '../tokens/color.token';
+
+// Primary colors
+.tc-primary-50 {
+  color: $primary-50;
+}
+.tc-primary-100 {
+  color: $primary-100;
+}
+.tc-primary-150 {
+  color: $primary-150;
+}
+.tc-primary-200 {
+  color: $primary-200;
+}
+.tc-primary-250 {
+  color: $primary-250;
+}
+.tc-primary-300 {
+  color: $primary-300;
+}
+.tc-primary-350 {
+  color: $primary-350;
+}
+
+.tc-secondary-50 {
+  color: $secondary-50;
+}
+.tc-secondary-100 {
+  color: $secondary-100;
+}
+.tc-secondary-150 {
+  color: $secondary-150;
+}
+.tc-secondary-200 {
+  color: $secondary-200;
+}
+.tc-secondary-250 {
+  color: $secondary-250;
+}
+.tc-secondary-300 {
+  color: $secondary-300;
+}
+.tc-secondary-350 {
+  color: $secondary-350;
+}
+
+.tc-yellow-50 {
+  color: $yellow-50;
+}
+.tc-yellow-100 {
+  color: $yellow-100;
+}
+.tc-yellow-150 {
+  color: $yellow-150;
+}
+.tc-yellow-200 {
+  color: $yellow-200;
+}
+.tc-yellow-250 {
+  color: $yellow-250;
+}
+.tc-yellow-300 {
+  color: $yellow-300;
+}
+.tc-yellow-350 {
+  color: $yellow-350;
+}
+
+.tc-purple-50 {
+  color: $purple-50;
+}
+.tc-purple-100 {
+  color: $purple-100;
+}
+.tc-purple-150 {
+  color: $purple-150;
+}
+.tc-purple-200 {
+  color: $purple-200;
+}
+.tc-purple-250 {
+  color: $purple-250;
+}
+.tc-purple-300 {
+  color: $purple-300;
+}
+.tc-purple-350 {
+  color: $purple-350;
+}
+
+.tc-blue-50 {
+  color: $blue-50;
+}
+.tc-blue-100 {
+  color: $blue-100;
+}
+.tc-blue-150 {
+  color: $blue-150;
+}
+.tc-blue-200 {
+  color: $blue-200;
+}
+.tc-blue-250 {
+  color: $blue-250;
+}
+.tc-blue-300 {
+  color: $blue-300;
+}
+.tc-blue-350 {
+  color: $blue-350;
+}
+
+.tc-foreground-50 {
+  color: $foreground-50;
+}
+.tc-foreground-100 {
+  color: $foreground-100;
+}
+.tc-foreground-150 {
+  color: $foreground-150;
+}
+.tc-foreground-200 {
+  color: $foreground-200;
+}
+
+.tc-background-50 {
+  color: $background-50;
+}
+.tc-background-100 {
+  color: $background-100;
+}
+.tc-background-150 {
+  color: $background-150;
+}
+.tc-background-200 {
+  color: $background-200;
+}
+
+// Background colors
+
+.bc-primary-50 {
+  background-color: $primary-50;
+}
+.bc-primary-100 {
+  background-color: $primary-100;
+}
+.bc-primary-150 {
+  background-color: $primary-150;
+}
+.bc-primary-200 {
+  background-color: $primary-200;
+}
+.bc-primary-250 {
+  background-color: $primary-250;
+}
+.bc-primary-300 {
+  background-color: $primary-300;
+}
+.bc-primary-350 {
+  background-color: $primary-350;
+}
+
+.bc-secondary-50 {
+  background-color: $secondary-50;
+}
+.bc-secondary-100 {
+  background-color: $secondary-100;
+}
+.bc-secondary-150 {
+  background-color: $secondary-150;
+}
+.bc-secondary-200 {
+  background-color: $secondary-200;
+}
+.bc-secondary-250 {
+  background-color: $secondary-250;
+}
+.bc-secondary-300 {
+  background-color: $secondary-300;
+}
+.bc-secondary-350 {
+  background-color: $secondary-350;
+}
+
+.bc-yellow-50 {
+  background-color: $yellow-50;
+}
+.bc-yellow-100 {
+  background-color: $yellow-100;
+}
+.bc-yellow-150 {
+  background-color: $yellow-150;
+}
+.bc-yellow-200 {
+  background-color: $yellow-200;
+}
+.bc-yellow-250 {
+  background-color: $yellow-250;
+}
+.bc-yellow-300 {
+  background-color: $yellow-300;
+}
+.bc-yellow-350 {
+  background-color: $yellow-350;
+}
+
+.bc-purple-50 {
+  background-color: $purple-50;
+}
+.bc-purple-100 {
+  background-color: $purple-100;
+}
+.bc-purple-150 {
+  background-color: $purple-150;
+}
+.bc-purple-200 {
+  background-color: $purple-200;
+}
+.bc-purple-250 {
+  background-color: $purple-250;
+}
+.bc-purple-300 {
+  background-color: $purple-300;
+}
+.bc-purple-350 {
+  background-color: $purple-350;
+}
+
+.bc-blue-50 {
+  background-color: $blue-50;
+}
+.bc-blue-100 {
+  background-color: $blue-100;
+}
+.bc-blue-150 {
+  background-color: $blue-150;
+}
+.bc-blue-200 {
+  background-color: $blue-200;
+}
+.bc-blue-250 {
+  background-color: $blue-250;
+}
+.bc-blue-300 {
+  background-color: $blue-300;
+}
+.bc-blue-350 {
+  background-color: $blue-350;
+}
+
+.bc-foreground-50 {
+  background-color: $foreground-50;
+}
+.bc-foreground-100 {
+  background-color: $foreground-100;
+}
+.bc-foreground-150 {
+  background-color: $foreground-150;
+}
+.bc-foreground-200 {
+  background-color: $foreground-200;
+}
+
+.bc-background-50 {
+  background-color: $background-50;
+}
+.bc-background-100 {
+  background-color: $background-100;
+}
+.bc-background-150 {
+  background-color: $background-150;
+}
+.bc-background-200 {
+  background-color: $background-200;
+}
+
+.tc-inherit {
+  color: inherit;
+}

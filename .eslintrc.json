@@ -15,7 +15,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "neocode",
+            "prefix": "koadev",
             "style": "camelCase"
           }
         ],
@@ -23,7 +23,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "neocode",
+            "prefix": "koadev",
             "style": "kebab-case"
           }
         ]
